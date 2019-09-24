@@ -2,6 +2,11 @@
   "name": "QCP API demo",
   "description": "A barebones demo of a Salesforce CPQ plugin calling an external pricing service",
   "repository": "https://github.com/samcheck/thdx-qcp-rest",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["node", "express", "static"]
+  "keywords": ["node", "express", "static", "CPQ", "API", "QCP"],
+  "image": "heroku/node",
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
 }
