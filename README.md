@@ -6,7 +6,7 @@ TrailheaDX 2019 session
 
 THDX-Pricing-QCP.js
 
-Create a new Custom Script (SBQQ__CustomScript__c sObject) in Salesforce.
+Create a new Custom Script (SBQQ**CustomScript**c sObject) in Salesforce.
 Name the new Custom Script.
 Copy the QCP javascript code into the Code field on the Custom Script.
 Save the Custom Script.
@@ -37,6 +37,8 @@ public/
 routes/
 
 Simple NodeJS app that can be run on Heroku with the free postgres DB add-on.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Create a new heroku app.
 Add the heroku remote to your local copy.
