@@ -1,11 +1,13 @@
 "use strict";
 
 const express = require("express");
+const helmet = require("helmet");
+const bodyParser = require("body-parser");
+const models = require("./models/index");
 
 const port = process.env.PORT || 5000;
 const app = express();
-const bodyParser = require("body-parser");
-const models = require("./models/index");
+app.use(helmet());
 
 app.use(bodyParser.json()); // for parsing application/json
 // Serve static files

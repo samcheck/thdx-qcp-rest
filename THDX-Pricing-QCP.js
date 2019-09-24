@@ -3,7 +3,6 @@
  * @author Sam Check
  * @since 1.0.0
  * @description Sample Salesforce CPQ Quote Calculator Plugin for demoing a call out to an external system
- * @link <URL>
  * @license MIT
  */
 
