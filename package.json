@@ -22,7 +22,7 @@
     "express": "^4.16.4",
     "helmet": "^3.21.1",
     "pg": "^7.11.0",
-    "sequelize": "^5.19.0",
+    "sequelize": "^6.28.2",
     "sequelize-cli": "^5.5.1"
   }
 }
